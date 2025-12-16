@@ -1,7 +1,7 @@
-<div align="center">/assets/0aa67016-6eaf-458a-adb2-" />
+<div align="center">/-" />
 </div>
 
-# Run and deploy your AI Studio app
+# Run and deploy 
 
 This contains everything you need to run your app locally.
 
