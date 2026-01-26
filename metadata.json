@@ -1,0 +1,8 @@
+{
+  "name": "GENMOZPRO - AI Fintech Suite",
+  "description": "Professional BIN Generator, Stripe Live Checker, and Fintech Insights with multi-language support and AI optimization.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
