@@ -1,6 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
-import { HashRouter, Routes, Route, Link, useLocation, Navigate } from 'react-router-dom';
+// Mudança aqui: Trocamos HashRouter por BrowserRouter
+import { BrowserRouter, Routes, Route, Link, useLocation, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Articles from './pages/Articles';
@@ -71,7 +71,8 @@ const App: React.FC = () => {
   };
 
   return (
-    <HashRouter>
+    // Mudança aqui: Trocamos <HashRouter> por <BrowserRouter>
+    <BrowserRouter>
       <NavigationWrapper>
         <div className="min-h-screen flex flex-col selection:bg-blue-100 selection:text-blue-900 bg-white">
           <Navbar />
@@ -174,7 +175,7 @@ const App: React.FC = () => {
           </footer>
         </div>
       </NavigationWrapper>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
